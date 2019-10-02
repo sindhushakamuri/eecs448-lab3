@@ -1,0 +1,31 @@
+p
+{
+	background-color: Green;
+	color: Gray;
+	font-family: arial;
+	font-size: 24;
+}
+
+body
+{
+	background-color: Green;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+h2
+{
+  background-color: gray;
+	color: Purple;
+}
+
+a
+{
+	background-color: pink;
+	color: black;
+}
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}
