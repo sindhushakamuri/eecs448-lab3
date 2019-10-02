@@ -3,7 +3,7 @@ let imgArrLength = imgArr.length;
 let count = 1;
 function Previous()
 {
-  count = count -1;
+  count--;
   if(count == 0)
   {
     count = imgArrLength;
@@ -13,8 +13,8 @@ function Previous()
 
 function Next()
 {
-  count = count +1;
-  if(count == imgArrLength)
+  count++;
+  if(count == imgArrLength+1)
   {
     count = 1;
   }
