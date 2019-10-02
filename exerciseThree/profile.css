@@ -1,0 +1,28 @@
+p
+{
+	background-color: Pink;
+	color: Gray;
+	font-family: arial;
+	font-size: 22;
+}
+
+body
+{
+	background-color: Pink;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(IMG_8897.jpg);
+	background-attachment: fixed;
+}
+
+a
+{
+	background-color: white;
+	color: purple;
+}
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}
